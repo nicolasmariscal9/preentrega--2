@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <img src="./logo.jpg" class ="logo" alt="Logo">
+        <nav class="arriba">
+            <a href="./index.html">inicio</a>
+            <a href="./contacto.html">Contacto</a>
+            <a href="./tienda.html">Tienda</a>
+        </nav>
+    </header>
+    <div >
+        <h1>Haga su pedido!!!</h1>
+        <form >
+            <div>
+                <label for="firstname" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstname" required>
+            </div>
+
+            <div >
+                <label for="lastname" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastname" required>
+            </div>
+
+            <div >
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" required placeholder="example@email.com">
+            </div>
+
+            <div >
+                <label for="phoneNumber" class="form-label">Telefono</label>
+                <input type="email" class="form-control" id="phoneNumber" placeholder="+54 (261)987-2468">
+            </div>
+
+            <div >
+                <label for="comments" class="form-label">Detalle pedido</label>
+                <textarea class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+
+            <div >
+                <button type="delete" class="btn btn-danger col-md-4 m-3">Cancelar</button>
+                <button type="submit" class="btn btn-primary col-md-4 m-3">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+    <footer>Todos los derechos reservados</footer>
+</body>
+</html>
